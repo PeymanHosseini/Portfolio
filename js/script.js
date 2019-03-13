@@ -34,6 +34,8 @@ $(document).ready(function() {
   });
   // finding top position of skillsSection
   var skillsTopOffset = $(".skillsSection").offset().top;
+  var statsTopOffset = $(".statsSection").offset().top;
+  var countUpFinished = false;
   //when window scroll down this code will start
   $(window).scroll(function() {
     if (window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
@@ -50,6 +52,19 @@ $(document).ready(function() {
             .text(Math.round(percent));
         }
       });
+    }
+    if (
+      !countUpFinished &&
+      window.pageYOffset > statsTopOffset - $(window).height() + 200
+    ) {
+      $(".counter").each(function() {
+        var element = $(this);
+        var endVal = parseInt(element.text());
+
+        element.countup(endVal);
+      });
+
+      countUpFinished = true;
     }
   });
 });
