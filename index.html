@@ -21,11 +21,18 @@
       rel="stylesheet"
       type="text/css"
       media="screen"
+      href="css/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
       href="css/style.css"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
+    <!--slides section -->
     <div id="slides">
       <div class="overlay"></div>
       <div class="slides-container">
@@ -44,6 +51,7 @@
         <a href="#" class="prev"></a>
       </nav>
     </div>
+    <!--about me section -->
     <div class="section" id="about">
       <div class="container">
         <div class="row">
@@ -67,9 +75,32 @@
         </div>
       </div>
     </div>
+    <!--My skills -->
+    <div class="skillsSection section" id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICALL SKILLS</h2>
+            <p>A representations of my proficiency in each skills</p>
+          </div>
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="90">
+                <span class="percent">90</span>
+                <canvas height="152" width="152"> </canvas>
+              </span>
+              <h4>PHP</h4>
+              <p>used in most of my project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--js file -->
 
     <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/typed.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
