@@ -153,3 +153,13 @@ body {
   color: #e74c3c;
   background-color: #fff;
 }
+
+.copyrightSection {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 5px;
+}
+
+.copyrightSection p {
+  margin: 0;
+}
