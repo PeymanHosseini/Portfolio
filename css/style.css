@@ -213,6 +213,7 @@ body {
 
 .items li img {
   width: 100%;
+
   -webkit-transition: all 0.2s linear, 1s;
   -moz-transition: all 0.2s linear, 1s;
   -o-transition: all 0.2s linear, 1s;
@@ -292,4 +293,43 @@ body {
   -o-transform: scale(1.05, 1.05);
   -ms-transform: scale(1.05, 1.05);
   -transition: scale(1.05, 1.05);
+}
+.items {
+  padding: 0;
+}
+.copyrightSection {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 5px;
+}
+
+.copyrightSection p {
+  margin: 0;
+}
+#navigation {
+  background-color: #e74c3c;
+  padding: 20px 10px;
+  z-index: 100;
+}
+
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background: url(../img/icon/menu.png);
+  background-size: 100%;
+}
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
 }
