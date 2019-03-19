@@ -71,7 +71,7 @@ body {
 
 .skillsSection,
 .contactSection {
-  background-color: #e74c3c;
+  background-color: #d82c2e;
   color: #fff;
 }
 
@@ -139,7 +139,7 @@ body {
   font-size: 56px;
   margin-bottom: 10px;
   font-weight: 400;
-  color: #e74c3c;
+  color: #d82c2e;
 }
 
 .squareContent h3 {
@@ -170,7 +170,7 @@ body {
 
 .contactButton:hover {
   text-decoration: none;
-  color: #e74c3c;
+  color: #d82c2e;
   background-color: #fff;
 }
 
@@ -187,8 +187,8 @@ body {
 }
 
 .filter .current {
-  background-color: #e74c3c;
-  border-color: #e74c3c;
+  background-color: #d82c2e;
+  border-color: #d82c2e;
   color: #fff;
 }
 
@@ -222,7 +222,7 @@ body {
   -transition: all 0.2s linear, 1s;
 }
 
-.items .item {
+.items .item1 {
   position: relative;
   display: block;
   overflow: hidden;
@@ -248,7 +248,7 @@ body {
 .items a {
   width: 40px;
   height: 40px;
-  background-color: #e74c3c;
+  background-color: #d82c2e;
   position: relative;
   display: inline-block;
   -webkit-transition: all 0.2s linear, 0.5s;
@@ -271,7 +271,7 @@ body {
   -ms-transition: all 0.2s linear, 1s;
   -transition: all 0.2s linear, 1s;
 }
-.items .item:hover .imageOverlay {
+.items .item1:hover .imageOverlay {
   opacity: 1;
 }
 .items .openButton {
@@ -282,13 +282,13 @@ body {
   float: right;
   right: -200px;
 }
-.items .item:hover .openButton {
+.items .item1:hover .openButton {
   left: 0px;
 }
-.items .item:hover .projectLink {
+.items .item1:hover .projectLink {
   right: 0px;
 }
-.items .item:hover img {
+.items .item1:hover img {
   -webkit-transform: scale(1.05, 1.05);
   -moz-transform: scale(1.05, 1.05);
   -o-transform: scale(1.05, 1.05);
@@ -308,7 +308,7 @@ body {
   margin: 0;
 }
 #navigation {
-  background-color: #e74c3c;
+  background-color: #d82c2e;
   padding: 20px 10px;
   z-index: 100;
   width: 100%;
@@ -354,11 +354,11 @@ body {
   padding: 15px 20px;
   display: inline-block;
   margin-top: 20px;
-  border: 1px solid #e74c3c;
+  border: 1px solid #d82c2e;
   border-radius: 2px;
 }
 .resumeButton:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #e74c3c;
+  background-color: #d82c2e;
 }

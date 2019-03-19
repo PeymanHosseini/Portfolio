@@ -29,8 +29,9 @@ $(document).ready(function() {
   });
   // owl carousel for skills section
   $(".owl-carousel").owlCarousel({
-    loop: true,
-    items: 4,
+    loop: false,
+    margin: 10,
+    dots: true,
     responsive: {
       0: {
         items: 1
