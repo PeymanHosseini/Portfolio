@@ -415,12 +415,3 @@ footer .form-control {
   color: #d1d2d2;
   padding: 0.7em 1em;
 }
-footer li .facebook:hover {
-  color: rgba(16, 21, 31, 0.7);
-}
-footer li .linkedin:hover {
-  color: rgba(38, 39, 41, 0.7);
-}
-footer li .github:hover {
-  color: rgba(223, 100, 29, 0.7);
-}

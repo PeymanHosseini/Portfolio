@@ -406,9 +406,9 @@
               </div>
             </div>
             <ul class="nav">
-              <li class="nav-item facebook">
+              <li class="nav-item ">
                 <a href="" class="nav-link "
-                  ><i class="fab fa-facebook-square fa-3x"></i
+                  ><i class="facebook fab fa-facebook-square fa-3x"></i
                 ></a>
               </li>
               <li class="nav-item linkedin">
@@ -430,11 +430,15 @@
             <br />
           </div>
           <div class="col-md-2">
-            <h5 class="text-md-right">Contact Us</h5>
+            <h6 class="text-md-right">Contact me</h6>
             <hr />
           </div>
           <div class="col-md-5">
-            <form>
+            <form
+              method="GET"
+              action="mailto:peyman.66h@gmail.com"
+              enctype="text/plain"
+            >
               <fieldset class="form-group">
                 <input
                   type="email"
@@ -451,7 +455,11 @@
                 ></textarea>
               </fieldset>
               <fieldset class="form-group text-xs-right">
-                <button type="button" class="btn btn-secondary-outline btn-lg">
+                <button
+                  type="submit"
+                  value="Send"
+                  class="btn btn-secondary-outline btn-lg"
+                >
                   Send
                 </button>
               </fieldset>
