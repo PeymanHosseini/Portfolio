@@ -24,7 +24,7 @@ $(document).ready(function() {
     strings: [
       "Web Developer.^800",
       "Web Designer.^800",
-      "software programmer.^800"
+      "Software Programmer.^800"
     ],
     typeSpeed: 80,
     loop: true,
