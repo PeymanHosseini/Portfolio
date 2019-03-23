@@ -21,7 +21,11 @@ $(document).ready(function() {
   });
   //typed.js animation for text
   var typed = new Typed(".typed", {
-    strings: ["Web Developer.^800", "Web Designer.^800", "IT Student.^800"],
+    strings: [
+      "Web Developer.^800",
+      "Web Designer.^800",
+      "software programmer.^800"
+    ],
     typeSpeed: 80,
     loop: true,
     startDelay: 800,
